@@ -8,8 +8,9 @@ public class Exercise4 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese un numero: ");
         int number = scanner.nextInt();
-
-        for(int i=1; i<=number; i++){
+        
+// int i=1; contador inicializado en 1    i<=number; // que tengo que hacer   i++  // ingrementa el valor del contador i 
+        for(int i=10; i<=number; i++){
             int add = number + i;
             System.out.println(number + " + " + i + " = " + add);
         }

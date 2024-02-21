@@ -8,7 +8,7 @@ public class Exercise5 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese un numero: ");
         int number = scanner.nextInt();
-
+//
         for(int i=1; i<=number; i++){
             int multiply = number * i;
             System.out.println(number + " * " + i + " = " + multiply);

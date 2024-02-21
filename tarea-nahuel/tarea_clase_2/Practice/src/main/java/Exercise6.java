@@ -12,7 +12,7 @@ public class Exercise6 {
         String password = scanner.nextLine();
 
         String originalPassword = "juanito123";
-
+//
         while (!(password.equals(originalPassword))){
             System.out.println("La contraseña es incorrecta, vuelva a ingresarla: ");
             password = scanner.nextLine();
