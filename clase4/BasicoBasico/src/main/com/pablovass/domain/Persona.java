@@ -1,10 +1,16 @@
 package main.com.pablovass.domain;
 //este persona me tiene que tener funcionalidade para mi ecomer
-//objeto 
+//objeto
+
+//diferecias entre objeto y clase 
+
+//una clase es una plantilla java - y puede o no ser un objeto  
+// un objeto = una representacion de una cosa de vida real y se reprenta en una clase. 
+
 public class Persona {
 // propiedades  
-	// encapsular 
-	private  int id;
+	// encapsular  
+	private int id; // atributo - propiedades - variables  
 	private int edad;
 	private int dinero; 
 	private int numeroDomento; 
@@ -13,18 +19,20 @@ public class Persona {
 	private String domicilio;
 
 	//funcionalidades que hacen al negocio 
-	
+	//una funcionalidad
 	public int comprarProducto(int product, int dinero ) {
-		
+		// la funcionalidad
 		return product;
 	}
 	
-// para obterner 
+// metodos para interactuar con las propiedades - atributos - variables  
+	//los setter y gettes 
 	public int getId() {
 		return id;
 	}
 	
 	//dar setear
+	// tiene que hacer una sola cosa 
 	public void setId(int id) {
 		this.id = id;
 	}

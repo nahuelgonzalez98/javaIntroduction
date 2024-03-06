@@ -1,4 +1,5 @@
 package main.com.pablovass;
+import main.com.pablovass.domain.Auto;
 import main.com.pablovass.domain.Persona;
 
 
@@ -11,6 +12,12 @@ public class Main {
 		pedro.setDinero(20);
 		//cuanto tiene pedro 
 		System.out.println("pedro tiene :"+ pedro.getDinero()+ "pesos" );
+		
+		Auto auto= new Auto();
+		//auto.ruedas=21; no debo hacer esto 
+		
+		auto.setRuedas(4);
+		
 		
 	}
 
